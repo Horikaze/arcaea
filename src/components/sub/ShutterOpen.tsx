@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
-import shutter_close from "../../assets/audio/shutter_close.wav";
 import { useAnimStore } from "../../lib/zustand";
 export default function ShutterOpen() {
-
   const shutterClose = async () => {
     // introMusic();
-    const audio = new Audio(shutter_close);
+    const audio = new Audio("assets/audio/shutter_close.wav");
     audio.volume = 0.2;
     audio.play();
   };
@@ -32,7 +30,7 @@ export default function ShutterOpen() {
         >
           <img
             className="h-full w-full object-cover object-right"
-            src="/src/assets/shutter_l.png"
+            src="assets/shutter_l.png"
           />
         </motion.div>
         <motion.div
@@ -48,7 +46,7 @@ export default function ShutterOpen() {
         >
           <img
             className="h-full w-full object-cover object-right"
-            src="/src/assets/shutter_r.png"
+            src="assets/shutter_r.png"
           />
         </motion.div>
       </div>

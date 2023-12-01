@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import axiom from "../assets/audio/axiom_loop.ogg";
 import { useAudioStore } from "../lib/zustand";
 export default function AudioComponent() {
   const { change, audioState } = useAudioStore();
@@ -14,7 +13,7 @@ export default function AudioComponent() {
   }, [audioState]);
   return (
     <>
-      <audio ref={introRef} autoPlay src={axiom} />
+      <audio ref={introRef} autoPlay src={"assets/audio/axiom_loop.ogg"} />
 
       <div
         onClick={change}
@@ -22,7 +21,7 @@ export default function AudioComponent() {
           audioState ? "brightness-[100]" : ""
         }`}
       >
-        <img src="/src/assets/startup/audio_headphones.png" />
+        <img src="assets/startup/audio_headphones.png" />
       </div>
     </>
   );

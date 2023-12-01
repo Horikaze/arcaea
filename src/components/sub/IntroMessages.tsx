@@ -1,9 +1,9 @@
 import Message from "./Message";
 import { motion } from "framer-motion";
 const messages = [
-  "/src/assets/startup/m1.png",
-  "/src/assets/startup/m2.png",
-  "/src/assets/startup/m3.png",
+  "assets/startup/m1.png",
+  "assets/startup/m2.png",
+  "assets/startup/m3.png",
 ];
 
 export default function IntroMessages() {

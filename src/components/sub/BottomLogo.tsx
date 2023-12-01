@@ -10,7 +10,7 @@ export default function BottomLogo() {
         transition={{ duration: 1, ease: "easeInOut", delay: 10 }}
       >
         <motion.img
-          src="/src/assets/startup/1080/title_glow.png"
+          src="assets/startup/1080/title_glow.png"
           className="absolute cursor-pointer"
           animate={{ opacity: [0, 1, 0] }}
           transition={{
@@ -23,7 +23,7 @@ export default function BottomLogo() {
           onClick={() => {
             console.log("playy");
           }}
-          src="/src/assets/startup/1080/title.png"
+          src="assets/startup/1080/title.png"
           className="absolute cursor-pointer"
         />
       </motion.div>

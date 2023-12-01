@@ -9,7 +9,7 @@ export default function Characters() {
         transition={{ duration: 1, ease: "easeInOut", delay: 10 }}
       >
         <motion.img
-          src="/src/assets/startup/char_h.png"
+          src="assets/startup/char_h.png"
           className="object-cover"
           animate={{
             y: [0, 8, 0],
@@ -28,7 +28,7 @@ export default function Characters() {
         transition={{ duration: 1, delay: 10 }}
       >
         <motion.img
-          src="/src/assets/startup/char_t.png"
+          src="assets/startup/char_t.png"
           className="object-cover"
           animate={{
             y: [8, 0, 8],

@@ -4,7 +4,7 @@ export default function Glass() {
   return (
     <>
       <motion.img
-        src="/src/assets/startup/main_glass.png "
+        src="assets/startup/main_glass.png "
         className="fixed w-full h-full object-cover z-10 pointer-events-none"
         animate={{ opacity: [0, 1, 0], scale: [1, 1.04, 1] }}
         transition={{
@@ -15,7 +15,7 @@ export default function Glass() {
         }}
       />
       <motion.img
-        src="/src/assets/startup/main_glass.png"
+        src="assets/startup/main_glass.png"
         className="fixed w-full h-full object-cover z-10"
         animate={{ opacity: [0, 1] }}
         transition={{
