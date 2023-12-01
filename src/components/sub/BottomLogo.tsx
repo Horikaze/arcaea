@@ -19,13 +19,7 @@ export default function BottomLogo() {
             ease: "easeInOut",
           }}
         />
-        <motion.img
-          onClick={() => {
-            console.log("playy");
-          }}
-          src="assets/startup/1080/title.png"
-          className="absolute cursor-pointer"
-        />
+        <motion.img src="assets/startup/1080/title.png" className="absolute" />
       </motion.div>
     </>
   );

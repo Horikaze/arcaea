@@ -13,7 +13,7 @@ export default function AudioComponent() {
   }, [audioState]);
   return (
     <>
-      <audio ref={introRef} autoPlay src={"assets/audio/axiom_loop.ogg"} />
+      <audio ref={introRef} loop autoPlay src={"assets/audio/axiom_loop.ogg"} />
 
       <div
         onClick={change}

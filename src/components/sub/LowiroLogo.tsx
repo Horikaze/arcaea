@@ -12,7 +12,9 @@ export default function LowiroLogo() {
         />
       </a>
       <p className="fixed bottom-0 left-0 z-20 p-1 text-white text-sm opacity-70">
-        All images are own by Lowiro
+        <p className="text-xs">
+          All images are own by Lowiro. Site made by horikaze
+        </p>
       </p>
     </>
   );
